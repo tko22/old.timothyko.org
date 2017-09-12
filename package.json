@@ -1,0 +1,22 @@
+{
+  "name": "personal-site-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tko22/personal-site-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tko22/personal-site-api/issues"
+  },
+  "homepage": "https://github.com/tko22/personal-site-api#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
