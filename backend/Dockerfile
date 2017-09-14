@@ -4,13 +4,13 @@ LABEL version="1.0"
 LABEL description="Personal Website API Docker Image"
 LABEL maintainer "Timothy Ko <timothy.l.ko@gmail.com>"
 
-RUN npm install --global nodemon
-
+RUN mkdir /app
 WORKDIR /app
-COPY package.json .
+COPY package.json /app
 RUN npm install
-COPY . .
-EXPOSE 8080
+COPY . /app
+EXPOSE 3001
+
 CMD [ "npm", "start" ]
 
 
