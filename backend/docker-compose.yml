@@ -7,3 +7,9 @@ services:
       - ./:/app
     ports:
       - "3001:3001"
+    links:
+      — mongo
+    mongo:
+      image: mongo
+      ports:
+        — “8080:8080”

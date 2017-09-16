@@ -1,10 +1,15 @@
+'use strict';
+
 const express = require('express')
 const app = express()
 
-app.get('/', function (req, res) {
-  res.send('Hello World!')
-})
+const PORT = 3001;
+const HOST = '0.0.0.0';
 
-app.listen(3001, function () {
-  console.log('Example app listening on port 3001!')
-})
+app.get('/', function (req, res) {
+    res.send('Hello World!')
+});
+
+app.listen(PORT, function () {
+    console.log('Running on http://${HOST}:${PORT}')
+});
