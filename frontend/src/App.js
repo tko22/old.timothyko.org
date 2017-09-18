@@ -5,13 +5,13 @@ import Main from './components/Main'
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <main>
-            <Route exact path="/" render={Main} />
-        </main>
-      </div>
-    );
+      return (
+          <div className="App">
+              <main>
+                  <Route exact path="/" render={Main} />
+              </main>
+          </div>
+      );
   }
 }
 
