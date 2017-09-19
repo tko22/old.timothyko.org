@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import './App.css';
 import {Redirect,Route} from 'react-router-dom'
 import Main from './components/Main'
+import Header from "./components/header";
 
 class App extends Component {
   render() {
       return (
           <div className="App">
+              <Header/>
               <main>
-                  <Route exact path="/" render={Main} />
+                  <Route exact path="/" component={Main} />
               </main>
           </div>
       );
