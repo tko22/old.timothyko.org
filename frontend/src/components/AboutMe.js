@@ -5,7 +5,7 @@ class AboutMe extends Component {
         return(
             <section className="about-me-section">
                 <div className="container">
-                    <h3>ABOUT ME</h3>
+                    <h4>ABOUT ME</h4>
                     <div className="row">
 
                     </div>
