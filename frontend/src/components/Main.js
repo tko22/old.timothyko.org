@@ -5,7 +5,8 @@ import classnames from 'classnames';
 import AboutMe from "./AboutMe";
 import Banner from "./Banner"
 import Reveal from 'react-reveal';
-import Resume from "./Resume"; // this package
+import Resume from "./Resume";
+import Projects from "./Projects"; // this package
 
 class Main extends Component {
     render() {
@@ -14,6 +15,7 @@ class Main extends Component {
                 <Banner/>
                 <AboutMe/>
                 <Resume/>
+                <Projects/>
             </div>
         );
     }

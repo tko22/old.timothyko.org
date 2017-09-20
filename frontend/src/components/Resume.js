@@ -8,6 +8,7 @@ class Resume extends Component {
     render() {
         const sectionClass = classnames({'main-section':'true','work-experience-section':'true'});
         const subRightClass = classnames({'sub':'true','right':'true'});
+        const rightCol = classnames({'col-sm-3':'true','col-4':'true'});
         return(
             <section className={sectionClass}>
                 <h5 style={{fontSize:24, paddingBottom:10}}>Resume</h5>
@@ -44,12 +45,12 @@ class Resume extends Component {
                         </div>
                     </Reveal>
                 </div>
-                <div className="container">
+                <div className="container" style={{paddingTop:30}}>
                     <p className="small-header">WORK EXPERIENCE</p>
                     <hr/>
                     <Reveal effect="animated fadeInRight">
                         <div className="row" style={{marginTop:30}}>
-                            <div className="col-1">
+                            <div className="col-sm-1">
                                 <img style={{paddingTop:4}}src={cyberinc} height="30" width="85"/>
                             </div>
                             <div className="col-8">
@@ -62,9 +63,9 @@ class Resume extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-3">
+                            <div className={rightCol}>
                                 <p className="right" style={{marginBottom:0}}>June 2015-August 2017</p>
-                                <p className={subRightClass}>Los Gatos, CA</p>
+                                <p id="work-location" className={subRightClass}>Los Gatos, CA</p>
                             </div>
 
 
