@@ -8,7 +8,7 @@ class AboutMe extends Component {
         const sectionClass = classnames({'about-me-section':'true','main-section':'true'});
         return(
             <section className={sectionClass}>
-                <Reveal effect="animated fadeInLeft">
+                <Reveal effect="animated fadeInUp" fraction="0.99">
                     <div className="container">
                         <h1>I'm Tim.</h1>
                         <h5>A Full Stack Developer from Cupertino, California passionate about learning just about everything.

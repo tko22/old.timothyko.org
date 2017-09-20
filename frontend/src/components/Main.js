@@ -13,7 +13,7 @@ class Main extends Component {
             <div className="main">
                 <Banner/>
                 <AboutMe/>
-                <Reveal effect="animated fadeInRight"><Resume/></Reveal>
+                <Resume/>
             </div>
         );
     }
