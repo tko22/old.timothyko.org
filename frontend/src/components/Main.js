@@ -5,7 +5,7 @@ import classnames from 'classnames';
 import AboutMe from "./AboutMe";
 import Banner from "./Banner"
 import Reveal from 'react-reveal';
-import WorkExperience from "./Resume"; // this package
+import Resume from "./Resume"; // this package
 
 class Main extends Component {
     render() {
@@ -13,7 +13,7 @@ class Main extends Component {
             <div className="main">
                 <Banner/>
                 <AboutMe/>
-                <Reveal effect="animted fadeInRight"><WorkExperience/></Reveal>
+                <Reveal effect="animated fadeInRight"><Resume/></Reveal>
             </div>
         );
     }

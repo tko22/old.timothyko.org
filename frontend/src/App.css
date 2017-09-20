@@ -56,7 +56,7 @@ a {
 }
 .overlay-title {
     margin: 0;
-    font-size: 45px;
+    font-size: 60px;
     color: black;
     font-weight: 600;
     letter-spacing: 2px;
@@ -76,8 +76,28 @@ a {
     margin-left: 0;
 }
 .about-me-section {
-    background-color: #f3f4f4;
+    background-color: #FBFBFC;
 }
-.work-experience-section {
-    background-image: #FBFBFC;
+.left-align-wrapper {
+    display:block;
+    text-align:left;
+    width:100%;
+}
+.small-header{
+    font-size: 15px;
+    color: #878787;
+    padding: 40px 0 0 0;
+    text-align:left;
+}
+.title {
+    font-size: 17px;
+    margin-bottom:5px;
+    font-weight: 700;
+}
+.sub {
+    margin:5px 0;
+    font-size: 13px;
+}
+.right {
+    text-align:right;
 }
