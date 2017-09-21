@@ -9,7 +9,8 @@ class Resume extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            uiucSkills: ['lc3 Assembly','C','Svn','Signals']
+            uiucSkills: ['lc3 Assembly','C','SVN','Signals'],
+            cyberincSkills: ['Python','Javascript','Linux','Agile/SCRUM','Git','Trac/Jira','QA']
         }
     }
     render() {
@@ -77,6 +78,9 @@ class Resume extends Component {
                             </div>
 
 
+                        </div>
+                        <div className="row">
+                            <SkillsList skills={this.state.cyberincSkills}/>
                         </div>
                     </Reveal>
                 </div>
