@@ -3,8 +3,15 @@ import classnames from 'classnames';
 import uiuc from '../uiuc.png'
 import cyberinc from '../cyberinc.png'
 import Reveal from 'react-reveal';
+import SkillsList from "./SkillsList";
 
 class Resume extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            uiucSkills: ['lc3 Assembly','C','Svn','Signals']
+        }
+    }
     render() {
         const sectionClass = classnames({'main-section':'true','work-experience-section':'true'});
         const subRightClass = classnames({'sub':'true','right':'true'});
@@ -40,8 +47,9 @@ class Resume extends Component {
                                 <p className="right" style={{marginBottom:0}}>2016-2020</p>
                                 <p className={subRightClass}>3.75 GPA</p>
                             </div>
-
-
+                        </div>
+                        <div className="row">
+                            <SkillsList skills={this.state.uiucSkills}/>
                         </div>
                     </Reveal>
                 </div>
@@ -50,8 +58,8 @@ class Resume extends Component {
                     <hr/>
                     <Reveal effect="animated fadeInRight">
                         <div className="row" style={{marginTop:30}}>
-                            <div className="col-sm-1">
-                                <img style={{paddingTop:4}}src={cyberinc} height="30" width="85"/>
+                            <div className="col-md-1">
+                                <img style={{paddingTop:4}}src={cyberinc} height="30" width="70"/>
                             </div>
                             <div className="col-8">
                                 <div className="left-align-wrapper">
