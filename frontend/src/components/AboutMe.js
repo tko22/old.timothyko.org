@@ -11,7 +11,7 @@ class AboutMe extends Component {
                 <Reveal effect="animated fadeInUp" fraction="0.99">
                     <div className="container">
                         <h1>I'm Tim.</h1>
-                        <h5>A Full Stack Developer from Cupertino, California passionate about learning just about everything.
+                        <h5>An Ambitious Developer passionate about the web and learning just about everything.
                              </h5>
                         <hr className="about-me-top-hr"/>
                         <div className="row">

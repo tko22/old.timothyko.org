@@ -1,7 +1,6 @@
 .App {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 p {
     font-size: 15px;
@@ -60,7 +59,7 @@ a {
 .overlay-title {
     margin: 0;
     font-size: 60px;
-    color: black;
+    color: white;
     font-weight: 600;
     letter-spacing: 2px;
 }
@@ -120,9 +119,30 @@ a {
     border-radius: 6px;
     border: 1px solid #2fa5df;
     float:left;
-    margin: 0 6px;
+    margin: 6px 6px;
+}
+.project-img-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.other-projects-list {
+    padding: 5px 0;
 }
 
+.skill-type {
+    padding: 20px 10px 20px 13px;
+    transition: text-shadow 0.25s linear;
+    margin: 0 12px 0 0;
+    line-height: 100%;
+    font-size: 25px;
+
+}
+.skill-list {
+}
+.skill-detail {
+    border-top: 1px solid #C26868;
+    padding: 20px 0;
+}
 
 
 @media only screen and (max-width: 576px) {
@@ -132,4 +152,25 @@ a {
     .col-3{
         padding-left: 0 !important;
     }
+    .skill-wrapper {
+        border-right: 0px;
+    }
+
+}
+@media only screen and (max-width: 976px) {
+    #skill-br {
+        display:none;
+    }
+}
+@media only screen and (min-width: 993px) {
+    .skill-wrapper {
+        border-right: 1px solid #C26868;
+    }
+    .skill-type-section {
+        padding: 20px 0;
+    }
+
+}
+@media only screen and (max-width: 1193px) {
+
 }

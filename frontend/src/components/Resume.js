@@ -10,7 +10,7 @@ class Resume extends Component {
         super(props);
         this.state = {
             uiucSkills: ['lc3 Assembly','C','SVN','Signals'],
-            cyberincSkills: ['Python','Javascript','Linux','Agile/SCRUM','Git','Trac/Jira','QA']
+            cyberincSkills: ['Python','Javascript/JQuery','HTML/CSS','Linux','Agile/SCRUM','Git','Trac/Jira','QA']
         }
     }
     render() {
