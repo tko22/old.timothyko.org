@@ -6,7 +6,7 @@ import mafia from '../mafia.jpg'
 class Projects extends Component {
     render(){
         const sectionClass = classnames({'main-section':'true','projects-section':'true'});
-        const projectImgClass = classnames({'col-md-6':'true','col-lg-5':'true'});
+        const projectImgClass = classnames({'col-md-6':'true','col-lg-6':'true'});
         return(
             <section className={sectionClass}>
                 <h5 style={{fontSize:24, paddingBottom:10}}>Activities and Projects</h5>
@@ -16,7 +16,6 @@ class Projects extends Component {
                     <hr style={{width:'50%'}}/>
                     <div className="project">
                         <div className="row">
-                            <div className="col-lg-1"> </div>
                             <div className={projectImgClass}>
                                 <div className="project-img-wrapper">
                                     <img className="max-width" src={r4o} />
@@ -31,7 +30,6 @@ class Projects extends Component {
                     </div>
                     <div className="project">
                         <div className="row">
-                            <div className="col-lg-1"> </div>
                             <div className={projectImgClass}>
                                 <div className="project-img-wrapper">
                                     <img className="max-width" src={cb} />
@@ -47,7 +45,6 @@ class Projects extends Component {
 
                     <div className="project">
                         <div className="row">
-                            <div className="col-lg-1"> </div>
                             <div className={projectImgClass}>
                                 <img className="max-width" src={mafia}/>
                             </div>
@@ -57,14 +54,15 @@ class Projects extends Component {
 
                         </div>
                     </div>
+                    <hr width={300}/>
                     <div style={{paddingTop:40}} id="other-projects">
                         <div className="row">
-                            <div className="col-1"> </div>
+                            <div className="col-sm-1"> </div>
                             <div className="col-10">
                                 <ul style={{textAlign:'left'}}>
-                                    <li className="other-projects-list"><b>EDIDreader Android Application: </b> Contracted to </li>
-                                    <li className="other-projects-list"><b>Teaching Web Development Workshops</b></li>
-                                    <li className="other-projects-list"><b>Check out my Tech Blog <a href="https://medium.com/@timmykko">here!</a></b></li>
+                                    <li className="other-projects-list" style={{fontSize: 14}}><span className="other-span">EDIDreader Android Application: </span> Contracted to </li>
+                                    <li className="other-projects-list"><span className="other-span">Teaching Web Development Workshops</span></li>
+                                    <li className="other-projects-list"><span className="other-span">Check out my Tech Blog <a href="https://medium.com/@timmykko">here!</a></span></li>
                                 </ul>
                             </div>
 
