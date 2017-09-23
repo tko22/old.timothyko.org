@@ -67,7 +67,19 @@ class Resume extends Component {
                                     <p className="title">CyberInc</p>
                                     <p className="sub">Junior Software Test Engineer</p>
                                     <div className="content" style={{fontSize:13,marginTop:20}}>
-                                        <p className="sub">Some Relevant Classes</p>
+                                        <ul style={{textDecoration:'none'}}>
+                                            <li>Developed python stress testing tool that emulates server and
+                                                customizable user behavior to expedite QA testing. Integrated and implemented
+                                                web API and a web dashboard for statistics and customization.</li>
+                                            <li>Modified existing software and provided a more user-friendly interface
+                                                through fixing critical GUI, Javascript, and sound related bugs in Python.
+                                                Rebuilt and Managed Dependencies for Opensuse client with RPM</li>
+                                            <li>Performed and documented all levels of testing including performance,
+                                                functional, integration, system, regression testing.
+                                                Provided management with reports for product release readiness during
+                                                SCRUM Agile team meetings.</li>
+                                        </ul>
+                                        <p className="sub"> </p>
                                     </div>
                                 </div>
                             </div>
