@@ -32,7 +32,7 @@ class Resume extends Component {
                                 <div className="left-align-wrapper">
                                     <p className="title">University of Illinois Urbana Champaign</p>
                                     <p className="sub">Computer Engineering, B.S. &#8212; Deans List, James Scholar</p>
-                                    <div className="content" style={{fontSize:13,marginTop:20}}>
+                                    <div className="content" style={{fontSize:15,marginTop:20}}>
                                         <p className="sub">Some Relevant Classes</p>
                                         <ul style={{textDecoration:'none'}}>
                                             <li>ECE 220: Computer Systems and Programming(C and LC3 Assembly)</li>
@@ -66,7 +66,7 @@ class Resume extends Component {
                                 <div className="left-align-wrapper">
                                     <p className="title">CyberInc</p>
                                     <p className="sub">Junior Software Test Engineer</p>
-                                    <div className="content" style={{fontSize:13,marginTop:20}}>
+                                    <div className="content" style={{fontSize:15,marginTop:20}}>
                                         <ul style={{textDecoration:'none'}}>
                                             <li>Developed python stress testing tool that emulates server and
                                                 customizable user behavior to expedite QA testing. Integrated and implemented

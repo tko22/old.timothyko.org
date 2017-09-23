@@ -16,13 +16,16 @@ class AboutMe extends Component {
                         <hr className="about-me-top-hr"/>
                         <div className="row">
                             <div className="col-md-8">
-                                <p>I enjoy designing the architectures of software while developing applications and tools that are able
-                                    to benefit and make people's lives better. I love learning cutting-edge technologies and
-                                    I am always looking to work with brillant people to gain more knowledge so that in the end,
-                                    I'll be able to give back and be a part of new innovations.
+                                <p>I enjoy the process of envisioning solutions and designing architectures of software products
+                                    and diving deep into the code and functionalities. I love learning cutting-edge technologies and
+                                    I am always looking to work with brilliant people to gain more knowledge so that in the end,
+                                    I'll be able to give back and build innovate but simple solutions to improve our lives.
                                     <hr width="40" style={{marginLeft:0}}/>
                                     And oh yeah. I'm a sophomore studying Computer Engineering at the University of Illinois Urbana-Champaign.
-                                    When not coding, I love going outdoors and enjoying nature and playing the piano. </p>
+                                    When not coding, I love going outdoors to enjoy nature, whether it's
+                                    camping or going to the beach or as simple as walking around the block.
+                                    I also love playing the piano and guitar in my spare time and have made some music for fun!.
+                                    </p>
                             </div>
                             <div className="col-md-4">
 
