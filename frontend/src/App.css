@@ -158,6 +158,12 @@ a, a:hover, a:active {
     padding: 0 20px;
     font-size: 13px;
 }
+.footer-wrapper-left {
+    float:left;
+    line-height: 70px;
+    padding: 0 20px;
+    font-size: 13px;
+}
 .footer-text-span {
     padding: 0 5px;
 }

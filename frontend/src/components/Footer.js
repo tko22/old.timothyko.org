@@ -5,8 +5,11 @@ class Footer extends Component {
         return(
             <footer>
                 <div className="footer-wrapper">
+                    <div className="footer-wrapper-left">
+                        Like my work? <a href="mailto:tk2@illinois.edu" style={{color:'#0289a9'}}>Email</a> me!
+                    </div>
                     <div className="footer-wrapper-right">
-                        <span className="footer-text-span"><a href="mailto:timothy.l.ko@gmail.com" style={{color:'black'}}>Email</a></span>
+                        <span className="footer-text-span"><a href="mailto:tk2@illinois.edu" style={{color:'black'}}>Email</a></span>
                         <span className="grey-bar"> | </span>
                         <span className="footer-text-span"><a href="mailto:timothy.l.ko@gmail.com" style={{color:'black'}}>Resume</a></span>
                         <span className="grey-bar"> | </span>
