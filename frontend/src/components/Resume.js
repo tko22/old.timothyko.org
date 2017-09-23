@@ -23,7 +23,7 @@ class Resume extends Component {
                 <div className="container">
                     <p className="small-header">EDUCATION</p>
                     <hr/>
-                    <Reveal effect="animated fadeInLeft">
+                    <Reveal effect="animated fadeInUp" number="0.7">
                         <div className="row" style={{marginTop:30}}>
                             <div className="col-1">
                                 <img style={{paddingTop:4}}src={uiuc} height="40" width="31"/>
@@ -57,7 +57,7 @@ class Resume extends Component {
                 <div className="container" style={{paddingTop:30}}>
                     <p className="small-header">WORK EXPERIENCE</p>
                     <hr/>
-                    <Reveal effect="animated fadeInRight">
+                    <Reveal effect="animated fadeInRight" number="0.7">
                         <div className="row" style={{marginTop:30}}>
                             <div className="col-md-1">
                                 <img style={{paddingTop:4}}src={cyberinc} height="30" width="70"/>

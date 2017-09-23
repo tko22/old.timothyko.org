@@ -7,7 +7,8 @@ import Banner from "./Banner"
 import Reveal from 'react-reveal';
 import Resume from "./Resume";
 import Projects from "./Projects";
-import DevSkills from "./DevSkills"; // this package
+import DevSkills from "./DevSkills";
+import Footer from "./Footer"; // this package
 
 
 class Main extends Component {

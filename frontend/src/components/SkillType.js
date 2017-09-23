@@ -7,6 +7,7 @@ class SkillType extends Component {
     render(){
         const skillTypeWrapper = classnames({'col-lg-4':'true',"skill-wrapper":'true'});
         return(
+
             <div className="skill-type-section">
                 <div className="row">
                     <div className="col-sm-2"> </div>
@@ -14,13 +15,13 @@ class SkillType extends Component {
                         <div className="skill-type-wrapper">
                             <div className="row">
                                 <div className={skillTypeWrapper} >
-                                    <h2 className="skill-type" style={{fontWeight:300}}>{this.props.type}</h2>
+                                    <h2 className="skill-type">{this.props.type}</h2>
                                 </div>
 
-                                <div className='col-lg-8' style={{paddingBottom:20}}><SkillsList skills={this.props.skills}/></div>
+                                <div className='col-lg-8' style={{padding:'15px 5px'}}><SkillsList skills={this.props.skills}/></div>
                             </div>
                             <div className="skill-detail">
-                                <p> {this.props.detail}</p>
+                                <p style={{fontSize: 14}}> {this.props.detail}</p>
                             </div>
 
                         </div>
