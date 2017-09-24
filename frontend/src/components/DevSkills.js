@@ -8,7 +8,7 @@ class DevSkills extends Component {
     constructor(props) {
         super(props);
         this.skills = {
-            backend: ['Django','Node.js','Express','RESTful APIs','JSON','MySQL','PostgreSQL','MongoDB','Firebase'],
+            backend: ['Django','Node.js','Express','RESTful APIs','JSON','MySQL','PostgreSQL','MongoDB','Firebase','WebSockets'],
             frontend: ['React.js','Redux', 'JQuery','HTML5','CSS','Bootstrap','ES6','Wordpress'],
             languages: ['Python', 'Javascript', 'Java', 'Swift3','C'],
             tools: ['Linux/Unix','Docker','Cloud Services','Heroku','NGINX','Apache','Git','Svn','npm','pip']
@@ -19,10 +19,10 @@ class DevSkills extends Component {
             frontend: "I've developed responsive web interfaces and apps using either from scratch or using " +
             "Javascript/CSS frameworks. But I've been mainly using React and ES6 with Redux frequently.(like this one!)",
             languages: "I've worked with Python and Javascript extensively while building web apps, but I've also" +
-            "used Java for building Android and Swift 3 for building IOS Apps. I've also implemented algorithms using " +
+            " used Java for building Android and Swift 3 for building IOS Apps. I've also implemented algorithms using " +
             "Python and Java.",
             tools: "I enjoy having a Unix development environment with Docker and having git as my version control." +
-            "I've also deployed mutiple apps using Nginx as a reverse proxy or Apache with Cloud Platforms including" +
+            "I've also deployed multiple apps using Nginx as a reverse proxy or Apache with Cloud Platforms including " +
             "Heroku and Digital Ocean. "
         }
     }

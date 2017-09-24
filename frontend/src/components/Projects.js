@@ -44,7 +44,7 @@ class Projects extends Component {
                                         and an admin-only dashboard for runner information, and much more.
                                     </p>
                                     <p style={{fontSize:15}}>
-                                        I Designed, implemented, and maintained the website and assisted the coordination
+                                        I designed, implemented, and maintained the website and assisted the coordination
                                         of fundraising events that have raised over $10,000 each year for 3 years.
                                         <a href="https://github.com/tko22/run4orphans_race" style={{fontSize:12, color:'grey'}}>  Github</a>
                                     </p>
@@ -96,12 +96,12 @@ class Projects extends Component {
 
                                     <p style={{fontWeight:600, letterSpacing:1,fontSize:17}}>
                                         <a href="http://mafia-game-app.herokuapp.com/">Mafia Game App</a></p>
-                                    <p style={{fontSize:14}}>
+                                    <p style={{fontSize:15}}>
                                         Mafia is a popular party game, generally for over 10 people, where you use deception to
                                         survive. Usually, we would cut up paper and assign roles though that, making it complicated
                                         and time-consuming since roles would depend on how many people were playing.
                                     </p>
-                                    <p style={{fontSize:14}}>
+                                    <p style={{fontSize:15}}>
                                         I used Django and its templating system along with JQuery and Ajax calls for JSON data to develop this application.
                                         It also allows for customization in the game and deployed using Heroku.
                                         <a href='https://github.com/tko22/mafia'style={{fontSize:12, color:'grey'}}>  Github</a>
