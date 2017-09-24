@@ -34,7 +34,7 @@ class Projects extends Component {
                                     <img className="max-width" src={r4o} />
                                 </div>
                             </div>
-                            <div className="col-sm-6">
+                            <div className="col-md-6">
                                 <div className="project-detail">
                                     <p style={{fontWeight:600, letterSpacing:1,fontSize:17}}>
                                         <a href="http://www.run4orphans.org">Run4Orphans</a></p>
@@ -126,7 +126,7 @@ class Projects extends Component {
                                         <p style={{fontSize: 14, marginBottom:0}}>Contracted to develop android application that connects via Bluetooth with
                                         a Raspberry Pi to send parsed Extended Display Identification Data(EDID) in
                                             JSON and displays and stores it.
-                                            <a href="https://github.com/tko22/mafia"style={{fontSize:12, color:'grey'}}>  Github</a>
+                                            <a href="https://github.com/tko22/EDIDreader"style={{fontSize:12, color:'grey'}}>  Github</a>
                                         </p>
                                         <div className="row"><SkillsList skills={this.skills.edid} /></div>
                                     </li>
