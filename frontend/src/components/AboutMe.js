@@ -18,8 +18,8 @@ class AboutMe extends Component {
                             <div className="col-md-8">
                                 <p>I enjoy the process of envisioning solutions and designing architectures of software products
                                     and diving deep into the code and functionalities. I love learning cutting-edge technologies and
-                                    I am always looking to work with brilliant people to gain more knowledge so that in the end,
-                                    I'll be able to give back and build innovate but simple solutions to improve our lives.
+                                    I am always looking to work with brilliant people to develop innovate and simple solutions
+                                    while pushing me to the next level.
                                     <hr width="40" style={{marginLeft:0}}/>
                                     And oh yeah. I'm a sophomore studying Computer Engineering at the University of Illinois Urbana-Champaign.
                                     When not coding, I love going outdoors to enjoy nature, whether it's
