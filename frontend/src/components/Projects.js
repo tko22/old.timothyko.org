@@ -26,7 +26,7 @@ class Projects extends Component {
                     <p style={{fontSize:15, paddingBottom:30, maxWidth:500, margin:'0 auto'}}>I love building stuff from sratch. Personal Projects give me the freedom to explore
                     and be proficient in different technologies and tools while allowing me to make architectural and design decisions. </p>
                     <hr style={{width:'50%'}}/>
-
+                    
                     <div className="project">
                         <div className="row">
                             <div className={projectImgClass}>

@@ -19,7 +19,7 @@ class Resume extends Component {
         const rightCol = classnames({'col-sm-3':'true','col-4':'true'});
         return(
             <section className={sectionClass}>
-                <h5 style={{fontSize:24, paddingBottom:10}}><a style={{color:'black'}} href="/files/resume.pdf">Resume</a></h5>
+                <h5 style={{fontSize:24, paddingBottom:10}}><a style={{color:'black'}} href="/files/resume.pdf">Resume</a><a style={{color:'grey',fontSize:'13',paddingLeft: 10}} href="/files/resume.pdf">Pdf</a></h5>
                 <div className="container">
                     <p className="small-header">EDUCATION</p>
                     <hr/>
