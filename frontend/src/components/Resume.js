@@ -31,7 +31,7 @@ class Resume extends Component {
                             <div className="col-md-8">
                                 <div className="left-align-wrapper">
                                     <p className="title">University of Illinois Urbana Champaign</p>
-                                    <p className="sub">Computer Engineering, B.S. &#8212; Deans List, James Scholar</p>
+                                    <p className="sub">Computer Engineering, B.S. &#8212; Deans List, James Scholar &#8212; 3.75 GPA</p>
                                     <div className="content" style={{fontSize:15,marginTop:20}}>
                                         <p className="sub">Some Relevant Classes</p>
                                         <ul style={{textDecoration:'none'}}>
@@ -61,7 +61,7 @@ class Resume extends Component {
                             <div className="col-md-1">
                                 <img style={{paddingTop:4}}src={cyberinc} height="30" width="70"/>
                             </div>
-                            <div className="col-8">
+                            <div className="col-md-8">
                                 <div className="left-align-wrapper">
                                     <p className="title">CyberInc</p>
                                     <p className="sub">Junior Software Test Engineer</p>
@@ -83,7 +83,7 @@ class Resume extends Component {
                                 </div>
                             </div>
 
-                            <div className={rightCol}>
+                            <div className="col-md-3">
                                 <p className="right" style={{marginBottom:0}}>June 2015-August 2017</p>
                                 <p id="work-location" className={subRightClass}>Los Gatos, CA</p>
                             </div>
