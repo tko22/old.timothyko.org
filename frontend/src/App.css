@@ -184,10 +184,13 @@ a, a:hover, a:active {
     }
     .full-background-image {
         height: 419px;
-        background: url('./sfmb.jpg') no-repeat center center fixed;
+        background:#005b7a;
     }
     .header-nav-right {
         display: none;
+    }
+    .right {
+        display:none;
     }
 
 }
@@ -206,8 +209,5 @@ a, a:hover, a:active {
 
 }
 @media only screen and (max-width: 400px) {
-    .full-background-image {
-        height: 419px;
-        background: url('./sf_sm.jpg') no-repeat center center fixed;
-    }
+    
 }

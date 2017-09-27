@@ -28,7 +28,7 @@ class Resume extends Component {
                             <div className="col-1">
                                 <img style={{paddingTop:4}}src={uiuc} height="40" width="31"/>
                             </div>
-                            <div className="col-8">
+                            <div className="col-md-8">
                                 <div className="left-align-wrapper">
                                     <p className="title">University of Illinois Urbana Champaign</p>
                                     <p className="sub">Computer Engineering, B.S. &#8212; Deans List, James Scholar</p>
@@ -43,8 +43,7 @@ class Resume extends Component {
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="col-3">
+                            <div className="col-md-3">
                                 <p className="right" style={{marginBottom:0}}>2016-2020</p>
                                 <p className={subRightClass}>3.75 GPA</p>
                             </div>
