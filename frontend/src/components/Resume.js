@@ -25,7 +25,7 @@ class Resume extends Component {
                     <hr/>
                     <Reveal effect="animated fadeInUp" number="0.7">
                         <div className="row" style={{marginTop:30}}>
-                            <div className="col-1">
+                            <div className="col-md-1">
                                 <img style={{paddingTop:4}}src={uiuc} height="40" width="31"/>
                             </div>
                             <div className="col-md-8">
