@@ -50,7 +50,7 @@ a, a:hover, a:active {
 
 .full-background-image {
     height: 600px;
-    background: url('./yosemite_main.jpg') no-repeat center center fixed;
+    background: url('./sf.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 .vert-align {
@@ -181,6 +181,10 @@ a, a:hover, a:active {
     }
     .skill-wrapper {
         border-right: 0px;
+    }
+    .full-background-image {
+        height: 419px;
+        background: url('./sfmb.jpg') no-repeat center center fixed;
     }
 
 }
