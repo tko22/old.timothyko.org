@@ -186,6 +186,9 @@ a, a:hover, a:active {
         height: 419px;
         background: url('./sfmb.jpg') no-repeat center center fixed;
     }
+    .header-nav-right {
+        display: none;
+    }
 
 }
 @media only screen and (max-width: 976px) {
