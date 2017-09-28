@@ -32,6 +32,13 @@ class AboutMe extends Component {
                             </div>
 
                         </div>
+                        <div className="row">
+                            <a href="/files/resume.pdf" className="personal-links">Resume</a> 
+                            <a href="https://github.com/tko22" className="personal-links">Github</a> 
+                            <a href="https://medium.com/@timmykko" className="personal-links">Blog</a> 
+                            <a href="https://www.linkedin.com/in/timothy-ko-795339135/" className="personal-links">LinkedIn</a> 
+                            <a href="mailto:tk2@illinois.edu" className="personal-links">Email</a>
+                        </div>
                     </div>
                 </Reveal>
             </section>

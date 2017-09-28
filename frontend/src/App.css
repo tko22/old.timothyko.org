@@ -171,6 +171,11 @@ a, a:hover, a:active {
 .grey-bar {
     color:#0289a9;
 }
+.personal-links {
+    padding: 10px 10px;
+    font-size: 14px;
+    color: #112c76 !important;
+}
 
 @media only screen and (max-width: 576px) {
     #work-location {
