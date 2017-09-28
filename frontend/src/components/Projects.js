@@ -132,6 +132,7 @@ class Projects extends Component {
                                     </li>
                                     <li className="other-projects-list"><span className="other-span">Teaching Web Development Workshops at @ACM</span></li>
                                     <li className="other-projects-list"><span className="other-span">Check out my Tech Blog <a href="https://medium.com/@timmykko" style={{color:'gray'}}>here!</a></span></li>
+                                    <li className="other-projects-list"><span className="other-span">This website was built from scratch using React and Docker and deployed using DigitalOcean and Nginx!</span></li>
                                 </ul>
                             </div>
 
