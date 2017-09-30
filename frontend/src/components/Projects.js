@@ -5,7 +5,7 @@ import cb from '../iphone-celerybox.jpg'
 import mafia from '../mafia.jpg'
 import Reveal from 'react-reveal';
 import SkillsList from './SkillsList'
-
+import Mechmania from '../mechmania.jpg'
 class Projects extends Component {
     constructor(props) {
         super(props);
@@ -13,7 +13,8 @@ class Projects extends Component {
             r4o: ['Python','Django','DigitalOcean','JQuery','Apache','MySQL','Wordpress','PHP','AJAX','Bootstrap'],
             celeryBox: ['IOS','Python','Django','Swift 3','RESTful API','DOM manipulation/Web-scraping','Cron','MySQL'],
             mafia: ['Heroku','Django','Python','MySQL','Application States','Bootstrap','JQuery'],
-            edid: ['Java','Python','Bit parsing','Android SDK','JSON','Bluetooth']
+            edid: ['Java','Python','Bit parsing','Android SDK','JSON','Bluetooth'],
+            mm: ['Node.js','React.js', 'Firebase', 'NoSQL','Socket.io']
         }
     }
     render(){
@@ -26,30 +27,27 @@ class Projects extends Component {
                     <p style={{fontSize:15, paddingBottom:30, maxWidth:500, margin:'0 auto'}}>I love building stuff from sratch. Personal Projects give me the freedom to explore
                     and be proficient in different technologies and tools while allowing me to make architectural and design decisions. </p>
                     <hr style={{width:'50%'}}/>
-                    
                     <div className="project">
                         <div className="row">
                             <div className={projectImgClass}>
                                 <div className="project-img-wrapper">
-                                    <img className="max-width" src={r4o} />
+                                    <img className="max-width" src={Mechmania} />
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="project-detail">
                                     <p style={{fontWeight:600, letterSpacing:1,fontSize:17}}>
-                                        <a href="http://www.run4orphans.org">Run4Orphans</a></p>
-                                    <p style={{fontSize:15}}>Run4Orphans is an organization that holds Races and allows
-                                        Runners to fundraise money for orphans in third world countries fo their marathon run.
-                                        Includes race signups with a payment system, personalized runner profiles with Wordpress,
-                                        and an admin-only dashboard for runner information, and much more.
+                                        <a href="">Mechmania</a></p>
+                                    <p style={{fontSize:15}}>
+                                    Collaborated in the organization of a 24-hour Game AI Hackathon. Developed and launched new event platform for real-time rankings and statistics while broadcasting queued up games on TVs to cultivate competition and innovative strategies. 
+                                    We also utilized WebSockets to broadcast games and create a distributed network to process games in parallel
                                     </p>
                                     <p style={{fontSize:15}}>
-                                        I designed, implemented, and maintained the website and assisted the coordination
-                                        of fundraising events that have raised over $10,000 each year for 3 years.
-                                        <a href="https://github.com/tko22/run4orphans_race" style={{fontSize:12, color:'grey'}}>  Github</a>
+                                        
+                                        <a href="" style={{fontSize:12, color:'grey'}}>  Github</a>
                                     </p>
                                     <div className="row">
-                                        <SkillsList skills={this.skills.r4o}/>
+                                        <SkillsList skills={this.skills.mm}/>
                                     </div>
                                 </div>
                             </div>
@@ -80,6 +78,34 @@ class Projects extends Component {
                                     </p>
                                     <div className="row">
                                         <SkillsList skills={this.skills.celeryBox}/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project">
+                        <div className="row">
+                            <div className={projectImgClass}>
+                                <div className="project-img-wrapper">
+                                    <img className="max-width" src={r4o} />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="project-detail">
+                                    <p style={{fontWeight:600, letterSpacing:1,fontSize:17}}>
+                                        <a href="http://www.run4orphans.org">Run4Orphans</a></p>
+                                    <p style={{fontSize:15}}>Run4Orphans is an organization that holds Races and allows
+                                        Runners to fundraise money for orphans in third world countries fo their marathon run.
+                                        Includes race signups with a payment system, personalized runner profiles with Wordpress,
+                                        and an admin-only dashboard for runner information, and much more.
+                                    </p>
+                                    <p style={{fontSize:15}}>
+                                        I designed, implemented, and maintained the website and assisted the coordination
+                                        of fundraising events that have raised over $10,000 each year for 3 years.
+                                        <a href="https://github.com/tko22/run4orphans_race" style={{fontSize:12, color:'grey'}}>  Github</a>
+                                    </p>
+                                    <div className="row">
+                                        <SkillsList skills={this.skills.r4o}/>
                                     </div>
                                 </div>
                             </div>
