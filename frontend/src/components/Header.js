@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 import classnames from 'classnames';
+import Sticky from 'react-sticky-el';
 
 
 class Header extends Component {
@@ -18,6 +19,7 @@ class Header extends Component {
                     </div>
                 </div>
             </nav>
+          
         );
     }
 }

@@ -6,7 +6,7 @@ class Footer extends Component {
             <footer>
                 <div className="footer-wrapper">
                     <div className="footer-wrapper-left">
-                        Like my work? <a href="mailto:tk2@illinois.edu" style={{color:'#0289a9'}}>Email</a> me!
+                        This was created from scratch with React! Like my work? <a href="mailto:tk2@illinois.edu" style={{color:'#0289a9'}}>Email</a> me!
                     </div>
                     <div className="footer-wrapper-right">
                         <span className="footer-text-span"><a href="mailto:tk2@illinois.edu" style={{color:'black'}}>Email</a></span>
