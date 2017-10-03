@@ -40,12 +40,9 @@ class Projects extends Component {
                                         <a href="">Mechmania</a></p>
                                     <p style={{fontSize:15}}>
                                     Collaborated in the organization of a 24-hour Game AI Hackathon. Developed and launched new event platform for real-time rankings and statistics while broadcasting queued up games on TVs to cultivate competition and innovative strategies. 
-                                    We also utilized WebSockets to broadcast games and create a distributed network to process games in parallel
+                                    We also utilized WebSockets to broadcast games and create a distributed network to process 8000 hours of game time in less than an hour for final rankings. <span style={{fontSize:12, color:'grey'}}>The source code is unfortunately private</span>
                                     </p>
-                                    <p style={{fontSize:15}}>
-                                        
-                                        <a href="" style={{fontSize:12, color:'grey'}}>  Github</a>
-                                    </p>
+                                
                                     <div className="row">
                                         <SkillsList skills={this.skills.mm}/>
                                     </div>
