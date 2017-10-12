@@ -17,7 +17,7 @@ class Footer extends Component {
                         <span className="grey-bar"> | </span>
                         <span className="footer-text-span"><a href="https://github.com/tko22">Github</a></span>
                         <span className="grey-bar"> | </span>
-                        <span className="footer-text-span"><a href="https://www.linkedin.com/in/timothy-ko-795339135/">LinkedIn</a></span>
+                        <span className="footer-text-span"><a href="https://www.linkedin.com/in/timothy-ko/">LinkedIn</a></span>
 
                     </div>
                 </div>

@@ -17,7 +17,7 @@ class AboutMe extends Component {
                         <div className="row">
                             <div className="col-md-8">
                                 <p>I enjoy the process of envisioning solutions and designing architectures of software products
-                                    and diving deep into the code and functionalities. I love learning cutting-edge technologies and
+                                    and diving deep into the code and functionalities. I love learning cutting-edge technologies(Blockchain!!) and
                                     I am always looking to work with brilliant people to develop innovate and simple solutions
                                     while pushing me to the next level.
                                     <hr width="40" style={{marginLeft:0}}/>
@@ -36,7 +36,7 @@ class AboutMe extends Component {
                             <a href="/files/resume.pdf" className="personal-links">Resume</a> 
                             <a href="https://github.com/tko22" className="personal-links">Github</a> 
                             <a href="https://medium.com/@timmykko" className="personal-links">Blog</a> 
-                            <a href="https://www.linkedin.com/in/timothy-ko-795339135/" className="personal-links">LinkedIn</a> 
+                            <a href="https://www.linkedin.com/in/timothy-ko/" className="personal-links">LinkedIn</a> 
                             <a href="mailto:tk2@illinois.edu" className="personal-links">Email</a>
                         </div>
                     </div>

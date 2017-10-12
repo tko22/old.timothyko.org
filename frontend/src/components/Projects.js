@@ -153,7 +153,8 @@ class Projects extends Component {
                                         </p>
                                         <div className="row"><SkillsList skills={this.skills.edid} /></div>
                                     </li>
-                                    <li className="other-projects-list"><span className="other-span">Teaching Web Development Workshops at @ACM</span></li>
+                                    <li className="other-projects-list"><span className="other-span">Co-Chair for WebMonkeys</span>
+                                    <p style={{fontSize: 14, marginBottom:0}}>I'm responsible for teaching and organizing weekly web development workshops and different coding challenges/projects throughout the year!</p></li>
                                     <li className="other-projects-list"><span className="other-span">Check out my Tech Blog <a href="https://medium.com/@timmykko" style={{color:'gray'}}>here!</a></span></li>
                                     <li className="other-projects-list"><span className="other-span">This website was built from scratch using React and Docker and deployed using DigitalOcean and Nginx!</span></li>
                                 </ul>
