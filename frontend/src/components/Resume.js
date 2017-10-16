@@ -67,16 +67,9 @@ class Resume extends Component {
                                     <p className="sub">Junior Software Test Engineer</p>
                                     <div className="content" style={{fontSize:15,marginTop:20}}>
                                         <ul style={{textDecoration:'none'}}>
-                                            <li>Developed python stress testing tool that emulates server and
-                                                customizable user behavior to expedite QA testing. Integrated and implemented
-                                                web API and a web dashboard for statistics and customization.</li>
-                                            <li>Modified existing software and provided a more user-friendly interface
-                                                through fixing critical GUI, Javascript, and sound related bugs in Python.
-                                                Rebuilt and Managed Dependencies for Opensuse client with RPM</li>
-                                            <li>Performed and documented all levels of testing including performance,
-                                                functional, integration, system, regression testing.
-                                                Provided management with reports for product release readiness during
-                                                SCRUM Agile team meetings.</li>
+                                            <li>Added new layer of testing by developing a Python stress testing tool for client interactions on the main product. Included a web dashboard with customizable user group behaviors.</li>
+                                            <li>Fixed Critical GUI, JavaScript, and sound related bugs in Python customers complained about. </li>
+                                            <li>Provided executives with reports for multiple product releases and performed comprehensive testing on Linux systems. Evaluated hundreds of test cases with TestRail and Trac/Jira bug tracking system in a SCRUM agile development team.</li>
                                         </ul>
                                         <p className="sub"> </p>
                                     </div>

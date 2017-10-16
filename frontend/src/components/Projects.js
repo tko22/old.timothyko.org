@@ -14,7 +14,8 @@ class Projects extends Component {
             celeryBox: ['IOS','Python','Django','Swift 3','RESTful API','DOM manipulation/Web-scraping','Cron','MySQL'],
             mafia: ['Heroku','Django','Python','MySQL','Application States','Bootstrap','JQuery'],
             edid: ['Java','Python','Bit parsing','Android SDK','JSON','Bluetooth'],
-            mm: ['Node.js','React.js', 'Firebase', 'NoSQL','Socket.io']
+            mm: ['Node.js','React.js', 'Firebase', 'NoSQL','Socket.io'],
+            blockchain: ['C++','Blockchains'],
         }
     }
     render(){
@@ -109,34 +110,6 @@ class Projects extends Component {
                         </div>
                     </div>
 
-                    <div className="project">
-                        <div className="row">
-                            <div className={projectImgClass}>
-                                <img className="max-width" src={mafia}/>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="project-detail">
-
-                                    <p style={{fontWeight:600, letterSpacing:1,fontSize:17}}>
-                                        <a href="http://mafia-game-app.herokuapp.com/">Mafia Game App</a></p>
-                                    <p style={{fontSize:15}}>
-                                        Mafia is a popular party game, generally for over 10 people, where you use deception to
-                                        survive. Usually, we would cut up paper and assign roles though that, making it complicated
-                                        and time-consuming since roles would depend on how many people were playing.
-                                    </p>
-                                    <p style={{fontSize:15}}>
-                                        I used Django and its templating system along with JQuery and Ajax calls for JSON data to develop this application.
-                                        It also allows for customization in the game and deployed using Heroku.
-                                        <a href='https://github.com/tko22/mafia'style={{fontSize:12, color:'grey'}}>  Github</a>
-                                    </p>
-                                    <div className="row">
-                                        <SkillsList skills={this.skills.mafia}/>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
 
                     <hr width={300}/>
                     <div style={{paddingTop:40}} id="other-projects">
@@ -144,6 +117,24 @@ class Projects extends Component {
                             <div className="col-sm-1"> </div>
                             <div className="col-10">
                                 <ul style={{textAlign:'left'}}>
+                                    <li className="other-projects-list" >
+                                        <span className="other-span">Blockchain Implementation: </span>
+                                        <p style={{fontSize: 14, marginBottom:0}}>Implemented Peer-to-Peer, Merkle Trees, SHA-256 Hash Algorithm using OpenSSL that followed bitcoin designs principles using C++.
+                                            <a href="https://github.com/tko22/mafia"style={{fontSize:12, color:'grey'}}>  Github</a>
+                                        </p>
+                                        <div className="row"><SkillsList skills={this.skills.blockchain} /></div>
+                                    </li>
+                                    <li className="other-projects-list"><span className="other-span">Co-Chair for WebMonkeys</span>
+                                        <p style={{fontSize: 14, marginBottom:0}}>I'm responsible for teaching and organizing weekly web development workshops and different coding challenges/projects throughout the year!</p></li>
+                                    <li className="other-projects-list" >
+                                        <span className="other-span"><a href="http://mafia-game-app.herokuapp.com/">Mafia Game App</a>: </span>
+                                        <p style={{fontSize: 14, marginBottom:0}}>Mafia is a popular party game, generally for over 10 people, where you use deception to
+                                        survive. Usually, we would cut up paper and assign roles though that, making it complicated
+                                        and time-consuming since roles would depend on how many people were playing. Used Django along with JQuery and AJAX calls for JSON data. Deployed using Heroku.
+                                            <a href="https://github.com/tko22/mafia"style={{fontSize:12, color:'grey'}}>  Github</a>
+                                        </p>
+                                        <div className="row"><SkillsList skills={this.skills.mafia} /></div>
+                                    </li>
                                     <li className="other-projects-list" >
                                         <span className="other-span">EDIDreader Android Application: </span>
                                         <p style={{fontSize: 14, marginBottom:0}}>Contracted to develop android application that connects via Bluetooth with
@@ -153,8 +144,7 @@ class Projects extends Component {
                                         </p>
                                         <div className="row"><SkillsList skills={this.skills.edid} /></div>
                                     </li>
-                                    <li className="other-projects-list"><span className="other-span">Co-Chair for WebMonkeys</span>
-                                    <p style={{fontSize: 14, marginBottom:0}}>I'm responsible for teaching and organizing weekly web development workshops and different coding challenges/projects throughout the year!</p></li>
+                                    
                                     <li className="other-projects-list"><span className="other-span">Check out my Tech Blog <a href="https://medium.com/@timmykko" style={{color:'gray'}}>here!</a></span></li>
                                     <li className="other-projects-list"><span className="other-span">This website was built from scratch using React and Docker and deployed using DigitalOcean and Nginx!</span></li>
                                 </ul>
