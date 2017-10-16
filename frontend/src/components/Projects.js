@@ -120,7 +120,7 @@ class Projects extends Component {
                                     <li className="other-projects-list" >
                                         <span className="other-span">Blockchain Implementation: </span>
                                         <p style={{fontSize: 14, marginBottom:0}}>Implemented Peer-to-Peer, Merkle Trees, SHA-256 Hash Algorithm using OpenSSL that followed bitcoin designs principles using C++.
-                                            <a href="https://github.com/tko22/mafia"style={{fontSize:12, color:'grey'}}>  Github</a>
+                                            <a href="https://github.com/tko22/simple-blockchain"style={{fontSize:12, color:'grey'}}>  Github</a>
                                         </p>
                                         <div className="row"><SkillsList skills={this.skills.blockchain} /></div>
                                     </li>
