@@ -8,9 +8,9 @@ class DevSkills extends Component {
     constructor(props) {
         super(props);
         this.skills = {
-            backend: ['Django','Node.js','Express','RESTful APIs','JSON','MySQL','PostgreSQL','MongoDB','Firebase','WebSockets'],
+            backend: ['Django','Node.js','Express','RESTful APIs','JSON','MySQL','PostgreSQL','MongoDB','Firebase','Socket.io'],
             frontend: ['React.js','Redux', 'JQuery','HTML5','CSS','Bootstrap','ES6','Wordpress'],
-            languages: ['Python', 'Javascript', 'Java', 'Swift3','C'],
+            languages: ['Python', 'Javascript', 'C/C++', 'Java','Swift 3'],
             tools: ['Linux/Unix','Docker','Cloud Services','Heroku','NGINX','Apache','Git','Svn','npm','pip']
         }
         this.detail = {

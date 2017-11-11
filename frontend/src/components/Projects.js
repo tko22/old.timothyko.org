@@ -98,8 +98,7 @@ class Projects extends Component {
                                         and an admin-only dashboard for runner information, and much more.
                                     </p>
                                     <p style={{fontSize:15}}>
-                                        I designed, implemented, and maintained the website and assisted the coordination
-                                        of fundraising events that have raised over $10,000 each year for 3 years.
+                                    Raised over $10,000 per year for 3 years through a web application I designed and implemented. Assisted in the coordination of fundraising events for orphans in third world countries.
                                         <a href="https://github.com/tko22/run4orphans_race" style={{fontSize:12, color:'grey'}}>  Github</a>
                                     </p>
                                     <div className="row">
