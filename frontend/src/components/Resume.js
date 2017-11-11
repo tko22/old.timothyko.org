@@ -76,7 +76,7 @@ class Resume extends Component {
                             </div>
 
                             <div className="col-md-4">
-                                <p className="right" style={{marginBottom:0}}>November 2017 - Present(end May 2018)</p>
+                                <p className="right" style={{marginBottom:0}}>November 2017 - (end May 2018)</p>
                                 <p id="work-location" className={subRightClass}>Champaign, IL</p>
                             </div>
                         </div>
