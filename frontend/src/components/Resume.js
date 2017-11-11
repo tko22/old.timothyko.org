@@ -92,7 +92,7 @@ class Resume extends Component {
                             <div className="col-md-1">
                                 <img style={{paddingTop:4}}src={cyberinc} height="30" width="70"style={{paddingRight:5}}/>
                             </div>
-                            <div style={{marginLeft:5}} className="col-md-8">
+                            <div className="col-md-8">
                                 <div className="left-align-wrapper">
                                     <p className="title">CyberInc</p>
                                     <p className="sub">Junior Software Test Engineer</p>
