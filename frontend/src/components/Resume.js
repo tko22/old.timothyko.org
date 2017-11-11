@@ -4,13 +4,15 @@ import uiuc from '../uiuc.png'
 import cyberinc from '../cyberinc.png'
 import Reveal from 'react-reveal';
 import SkillsList from "./SkillsList";
+import abbvie from '../abbvie-logo.jpg'
 
 class Resume extends Component {
     constructor(props) {
         super(props);
         this.state = {
             uiucSkills: ['lc3 Assembly','C','SVN','Signals'],
-            cyberincSkills: ['Python','Javascript/JQuery','HTML/CSS','Linux','Agile/SCRUM','Git','Trac/Jira','QA']
+            cyberincSkills: ['Python','Javascript/JQuery','HTML/CSS','Linux','Agile/SCRUM','Git','Trac/Jira','QA'],
+            abbvieSkills: ['Javascript', 'Salesforce Health Cloud']
         }
     }
     render() {
@@ -59,9 +61,35 @@ class Resume extends Component {
                     <Reveal effect="animated fadeInRight" number="0.7">
                         <div className="row" style={{marginTop:30}}>
                             <div className="col-md-1">
+                                <img style={{paddingTop:4}}src={abbvie} height="60" width="60"/>
+                            </div>
+                            <div style={{marginLeft:5}}className="col-md-7">
+                                <div className="left-align-wrapper">
+                                    <p className="title">Abbvie</p>
+                                    <p className="sub">Software Engineer Intern</p>
+                                    <div className="content" style={{fontSize:15,marginTop:20}}>
+                                        <ul style={{textDecoration:'none'}}>
+                                            <li>Salesforce Integration</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4">
+                                <p className="right" style={{marginBottom:0}}>November 2017 - Present(end May 2018)</p>
+                                <p id="work-location" className={subRightClass}>Champaign, IL</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <SkillsList skills={this.state.abbvieSkills}/>
+                        </div>
+                    </Reveal>
+                    <Reveal effect="animated fadeInRight" number="0.7">
+                        <div className="row" style={{marginTop:30}}>
+                            <div className="col-md-1">
                                 <img style={{paddingTop:4}}src={cyberinc} height="30" width="70"/>
                             </div>
-                            <div className="col-md-8">
+                            <div style={{marginLeft:5}} className="col-md-8">
                                 <div className="left-align-wrapper">
                                     <p className="title">CyberInc</p>
                                     <p className="sub">Junior Software Test Engineer</p>
