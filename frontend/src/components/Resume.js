@@ -69,7 +69,7 @@ class Resume extends Component {
                                     <p className="sub">Software Engineer Intern</p>
                                     <div className="content" style={{fontSize:15,marginTop:20}}>
                                         <ul style={{textDecoration:'none'}}>
-                                            <li>Salesforce Integration</li>
+                                            <li>Integrating Salesforce Health Cloud in Pharmacy Solutions for patients. </li>
                                         </ul>
                                         <p className="sub"> </p>
                                     </div>
