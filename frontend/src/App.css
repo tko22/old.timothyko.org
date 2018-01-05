@@ -50,7 +50,7 @@ a, a:hover, a:active {
 
 .full-background-image {
     height: 600px;
-    background: url('./sf.jpg') no-repeat center center fixed;
+    background: url('./sf_md.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 .vert-align {

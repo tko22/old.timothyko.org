@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
-import yosemiteMain from '../yosemite_main.jpg'
 
 class Banner extends Component {
     render() {
