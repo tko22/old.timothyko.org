@@ -9,6 +9,8 @@ class Footer extends Component {
                         Like my work? <a href="mailto:tk2@illinois.edu" style={{color:'#0289a9'}}>Email</a> me!
                     </div>
                     <div className="footer-wrapper-right">
+                        <span className="footer-text-span"><a href="/projects" style={{color:'black'}}>Projects</a></span>
+                        <span className="grey-bar"> | </span>
                         <span className="footer-text-span"><a href="mailto:tk2@illinois.edu" style={{color:'black'}}>Email</a></span>
                         <span className="grey-bar"> | </span>
                         <span className="footer-text-span"><a href="/files/resume.pdf" style={{color:'black'}}>Resume</a></span>
