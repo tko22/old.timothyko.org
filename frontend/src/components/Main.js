@@ -18,8 +18,6 @@ class Main extends Component {
                 <Banner/>
                 <AboutMe/>
                 <Resume/>
-                <Projects/>
-                <DevSkills/>
             </div>
         );
     }
