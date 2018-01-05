@@ -8,7 +8,7 @@ class AboutMe extends Component {
         const sectionClass = classnames({'about-me-section':'true','main-section':'true'});
         return(
             <section className={sectionClass}>
-                <Reveal effect="animated fadeInUp" fraction="0.99">
+                <Reveal effect="animated fadeInLeft" fraction="0.99">
                     <div className="container">
                         <h1>I'm Tim.</h1>
                         <h5>An Ambitious Developer passionate about the web and learning just about everything.
@@ -38,6 +38,7 @@ class AboutMe extends Component {
                             <a href="https://medium.com/@timmykko" className="personal-links">Blog</a> 
                             <a href="https://www.linkedin.com/in/timothy-ko/" className="personal-links">LinkedIn</a> 
                             <a href="mailto:tk2@illinois.edu" className="personal-links">Email</a>
+                            <a href="/projects" className="personal-links">My Projects</a>
                         </div>
                     </div>
                 </Reveal>

@@ -17,7 +17,6 @@ class Main extends Component {
             <div className="main">
                 <Banner/>
                 <AboutMe/>
-                <Resume/>
             </div>
         );
     }

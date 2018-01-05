@@ -16,7 +16,7 @@ class Resume extends Component {
         }
     }
     render() {
-        const sectionClass = classnames({'main-section':'true','work-experience-section':'true'});
+        const sectionClass = classnames({'work-experience-section':'true'});
         const subRightClass = classnames({'sub':'true','right':'true'});
         const rightCol = classnames({'col-sm-3':'true','col-4':'true'});
         return(
