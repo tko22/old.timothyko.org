@@ -16,7 +16,6 @@ class App extends Component {
                   <Route exact path="/" component={Main} />
                   <Route exact path="/projects" component={ResumePage}/>
               </main>
-              <Footer/>
           </div>
       );
   }
