@@ -7,7 +7,7 @@ class Skills extends Component {
     }
     render() {
         return(<
-            section className="skills-section">
+            <section className="skills-section">
                 <div className="skills-subsection">
                     <div className="row">
                         <div className="col-sm-4">

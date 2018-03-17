@@ -39,8 +39,8 @@ class AboutMe extends Component {
                             <a href="https://medium.com/@timmykko" className="personal-links">Blog</a> 
                             <a href="https://www.linkedin.com/in/timothy-ko/" className="personal-links">LinkedIn</a> 
                             <a href="mailto:tk2@illinois.edu" className="personal-links">Email</a>
-                            <a href="/projects" className="personal-links">My Projects</a>
                             <a href="https://twitter.com/timmykko6" className="personal-links">Twitter</a>
+                            <a href="/projects" className="personal-links">My Projects</a>/
                         </div>
                     </div>
                 </Reveal>

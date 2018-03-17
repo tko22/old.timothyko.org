@@ -13,10 +13,10 @@ class Header extends Component {
                     <div className="header-nav-center">
                         <span className={logoClass}><Link to="/" >TIMOTHY KO</Link></span>
                     </div>
-                    <div className="header-nav-right">
+                    {/*<div className="header-nav-right">
                         <span className="header-text-span"><a href="https://medium.com/@timmykko">Blog</a></span>
                         <span className="header-text-span"><a href="https://github.com/tko22">Github</a></span>
-                    </div>
+                    ol</div>*/}
                 </div>
             </nav>
           
