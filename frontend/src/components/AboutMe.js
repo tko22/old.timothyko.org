@@ -34,7 +34,7 @@ class AboutMe extends Component {
 
                         </div>
                         <div className="row">
-                            <a href="/files/resume.pdf" className="personal-links">Resume</a> 
+                            <a href="resume.timothyko.org" className="personal-links">Resume</a> 
                             <a href="https://github.com/tko22" className="personal-links">Github</a> 
                             <a href="https://medium.com/@timmykko" className="personal-links">Blog</a> 
                             <a href="https://www.linkedin.com/in/timothy-ko/" className="personal-links">LinkedIn</a> 
