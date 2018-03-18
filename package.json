@@ -21,7 +21,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-	"now": {
-		"alias":"timothyko.org"
-	}
+  "now": {
+    "alias": "timothyko.org"
+  }
 }
