@@ -7,6 +7,6 @@
     "alias": "timothyko.org"
   },
   "scripts": {
-    "start": ""
+    "start": "now-start"
   }
 }
