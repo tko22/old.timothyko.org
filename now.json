@@ -1,0 +1,12 @@
+{
+  "name": "timothyko.org",
+  "dependencies": {
+    "micro": "latest"
+  },
+  "now": {
+    "alias": "timothyko.org"
+  },
+  "scripts": {
+    "start": ""
+  }
+}
